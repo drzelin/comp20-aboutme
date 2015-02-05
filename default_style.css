@@ -1,1 +1,52 @@
 /* Stylesheet */
+body {
+    background-color: gray;
+    font-family: lucida; 
+}
+
+#index {
+    text-align: center;
+}
+
+h1 {
+    color: purple; 
+    font-size: 50px;
+}
+
+h2 {
+    color: black;   
+}
+
+h3 {
+    text-indent: 20px;
+    color: black;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+#exp {  
+    text-indent: 40px;
+}
+
+p {
+    text-indent: 40px;
+}
+
+img {
+    width:225px;
+    height:228px;
+}
+
+a {
+    text-decoration:none;
+    color: purple;
+    font-size: 20px; 
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
