@@ -1,15 +1,33 @@
 /* Stylesheet */
 body {
-    background-color: gray;
     font-family: lucida; 
+    background-image: url(8-580x276.jpg);
 }
 
-#index {
+#links {
     text-align: center;
 }
 
+.header {
+    font-size: 50px;
+    background-color: #1A1A66;
+    height: 75px;
+    opacity: 0.6;
+    text-align: left;
+}
+
+img {
+    width:225px;
+    height:228px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: 5px solid #1A1A66;
+}
+
 h1 {
-    color: purple; 
+    color: white; 
     font-size: 50px;
 }
 
@@ -25,6 +43,7 @@ h3 {
 ul {
     list-style-type: square;
     list-style-position: inside;
+    color: black;
 }
 
 #exp {  
@@ -35,18 +54,12 @@ p {
     text-indent: 40px;
 }
 
-img {
-    width:225px;
-    height:228px;
-}
-
 a {
     text-decoration:none;
-    color: purple;
+    color: #1A1A66;
     font-size: 20px; 
 }
 
 a:hover {
-    color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
