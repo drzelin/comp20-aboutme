@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: gray;
     font-family: lucida; 
 }
 
@@ -8,7 +8,8 @@ body {
 }
 
 h1 {
-    color: black;   
+    color: purple; 
+    font-size: 50px;
 }
 
 h2 {
@@ -33,4 +34,18 @@ p {
     text-indent: 40px;
 }
 
+img {
+    width:225px;
+    height:228px;
+}
 
+a {
+    text-decoration:none;
+    color: purple;
+    font-size: 20px; 
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
