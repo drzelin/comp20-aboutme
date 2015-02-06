@@ -1,7 +1,12 @@
 /* Stylesheet */
+html {
+    height: 100%;
+    background-color: #A3B2A3;
+    //background-image: url(250971c.jpg);
+}
+
 body {
     font-family: lucida; 
-    background-image: url(8-580x276.jpg);
 }
 
 #links {
@@ -10,56 +15,79 @@ body {
 
 .header {
     font-size: 50px;
-    background-color: #1A1A66;
+    background-color: #002900;
     height: 75px;
     opacity: 0.6;
     text-align: left;
 }
 
 img {
-    width:225px;
-    height:228px;
+    width:250px;
+    height:248px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    border: 5px solid #1A1A66;
+    margin-left: 70%;
+    margin-right: 30%%;
+    margin-top: -5%;
+    position: relative;
+    border: 10px solid #002900;
 }
 
 h1 {
-    color: white; 
+    color: white;
     font-size: 50px;
 }
 
 h2 {
-    color: black;   
+    color: #002900;
+    background-color: white;;
+    opacity: 0.6;
+    width: 30%;
+    margin-left: 10px;
+    text-align: center;
 }
 
 h3 {
-    text-indent: 20px;
-    color: black;
+    text-indent: 30px;
+    color: #002900;
 }
 
 ul {
     list-style-type: square;
     list-style-position: inside;
-    color: black;
+    text-indent: 50px;
+    color: #002900;
 }
 
 #exp {  
-    text-indent: 40px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    text-indent: 80px;
+    list-style: circle;
+    list-style-position: inside;
 }
 
 p {
-    text-indent: 40px;
+    text-indent: 50px;
 }
 
 a {
     text-decoration:none;
-    color: #1A1A66;
+    color: white;
     font-size: 20px; 
+    border: 3px solid white;
+    padding: 10px 20px 10px 20px;
+    background: #002900;
 }
 
 a:hover {
-    text-decoration: underline;
+    background: #002900;
+    opacity: 0.6;
+}
+
+#bio {
+    text-align: left;
+}
+
+#linkedin {
+    text-align: right;
 }
