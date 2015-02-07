@@ -1,7 +1,7 @@
 /* Stylesheet */
 html {
     height: 100%;
-    background-color: #A3B2A3;
+    background-color: #CCDDFF;
     //background-image: url(250971c.jpg);
 }
 
@@ -16,31 +16,42 @@ body {
 }
 
 .header {
-    font-size: 50px;
-    background-color: #002900;
-    height: 75px;
-    opacity: 0.6;
+    padding-top: 0.005%;
+    padding-left: 2%;
+    background-color: #000040;
+    height: 110px;
+    opacity: 0.7;
+    text-align: left;
+}
+
+.classheader {
+    padding-top: 0.005%;
+    padding-left: 2%;
+    background-color: #000040;
+    height: 50px;
+    opacity: 0.7;
     text-align: left;
 }
 
 img {
-    width:250px;
-    height:248px;
+    width:350px;
+    height:350px;
     display: block;
     margin-left: 70%;
     margin-right: 30%%;
     margin-top: -5%;
     position: relative;
-    border: 10px solid #002900;
+    border: 10px solid #000040;
 }
 
 h1 {
     color: white;
-    font-size: 50px;
+    font-size: 400%;
+    margin-top: 1.8%;
 }
 
 h2 {
-    color: #002900;
+    color: #000040;
     width: 30%;
     margin-left: 10px;
     text-align: left;
@@ -55,7 +66,7 @@ ul {
     list-style-type: square;
     list-style-position: inside;
     text-indent: 50px;
-    color: #002900;
+    color: #000040;
 }
 
 #exp {  
@@ -71,7 +82,7 @@ p {
 }
 
 a {
-    width: 400px;
+    width: 30%;
     display: inline-block;
     text-align: 50%;
     text-decoration:none;
@@ -79,13 +90,13 @@ a {
     font-size: 20px; 
     border: 3px solid #A3B2A4;
     padding: 20px 30px 20px 30px;
-    background: #002900;
+    background: #000040;
     opacity: 0.6%;
     text-indent: -2px;
 }
 
 a:hover {
-    background: #002900;
+    background: #000040;
     opacity: 0.6;
     color: white;
     border-color: white;
