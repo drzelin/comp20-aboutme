@@ -11,6 +11,8 @@ body {
 
 #links {
     text-align: center;
+    margin-top: -5%;
+    margin-right: 10%;
 }
 
 .header {
@@ -39,11 +41,9 @@ h1 {
 
 h2 {
     color: #002900;
-    background-color: white;;
-    opacity: 0.6;
     width: 30%;
     margin-left: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 h3 {
@@ -71,17 +71,24 @@ p {
 }
 
 a {
+    width: 400px;
+    display: inline-block;
+    text-align: 50%;
     text-decoration:none;
     color: white;
     font-size: 20px; 
-    border: 3px solid white;
-    padding: 10px 20px 10px 20px;
+    border: 3px solid #A3B2A4;
+    padding: 20px 30px 20px 30px;
     background: #002900;
+    opacity: 0.6%;
+    text-indent: -2px;
 }
 
 a:hover {
     background: #002900;
     opacity: 0.6;
+    color: white;
+    border-color: white;
 }
 
 #bio {
