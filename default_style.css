@@ -9,8 +9,8 @@ body {
 }
 
 .header {
-    padding-top: 100px;
-    padding-bottom: 300px;
+    padding-top: 10%;
+    padding-bottom: 15%;
     padding-right: 40%;
     padding-left: 40%;
     background-image: url(Screen%20Shot%202015-02-07%20at%2011.19.25%20PM.png);
@@ -42,27 +42,19 @@ body {
     position: absolute;
 }
 
-.classheader {
-    padding-top: 0.005%;
-    padding-left: 2%;
-    background-color: #610020;
-    color: white;
-    height: 60px;
-    opacity: 0.7;
-    text-align: left;
-}
-
 img {
-    width:300px;
-    height:300px;
-    margin-left: 41%;
+    width:15%;
+    height:30%;
+    margin-left: 43%;
     margin-top: 15%;
     position: absolute;
 }
 
 h1 {
     color: #610020;
-    width: 100%;
+    width: 200%;
+    margin-left: -45%;
+    text-align: center;
     font-size: 400%;
     margin-top: 1.8%;
 }
@@ -80,6 +72,16 @@ h3 {
     
 }
 
+.classheader {
+    padding-top: 0.005%;
+    padding-left: 2%;
+    background-color: #610020;
+    color: white;
+    height: 60px;
+    opacity: 0.7;
+    text-align: left;
+}
+
 #exp {  
     padding-top: 0.5%;
     padding-bottom: 0.5%;
@@ -91,6 +93,7 @@ h3 {
 p {
     text-indent: 50px;
     text-align: justify;
+    
 }
 
 a {
@@ -99,12 +102,12 @@ a {
     text-align: 50%;
     text-decoration:none;
     color: white;
-    font-size: 20px; 
-    border: 3px solid #A3B2A4;
-    padding: 20px 30px 20px 30px;
+    font-size: 150%; 
+    border: 3% solid #A3B2A4;
+    padding: 1% 1% 1% 1%;
     background: #610020;
     opacity: 0.6%;
-    text-indent: -2px;
+    text-indent: -1%;
 }
 
 a:hover {
