@@ -61,12 +61,10 @@ img {
 h1 {
     color: #610020;
     width: 200%;
-    padding-left: 5%;
-    padding-top: 5%;
+    margin-left: -45%;
     text-align: center;
     font-size: 390%;
     margin-top: 1.8%;
-    border: 1px solid #610020;
 }
 
 h2 {
@@ -83,13 +81,16 @@ h3 {
 }
 
 .classheader {
-    padding-top: 0.005%;
-    padding-left: 2%;
     background-color: #610020;
     color: white;
     height: 60px;
+    width: 100%;
     opacity: 0.7;
     text-align: left;
+    margin-left: -1%;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 #exp {  
