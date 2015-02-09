@@ -61,10 +61,12 @@ img {
 h1 {
     color: #610020;
     width: 200%;
-    margin-left: -45%;
+    padding-left: 5%;
+    padding-top: 5%;
     text-align: center;
-    font-size: 400%;
+    font-size: 390%;
     margin-top: 1.8%;
+    border: 1px solid #610020;
 }
 
 h2 {
