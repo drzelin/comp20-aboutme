@@ -14,29 +14,29 @@ body {
     padding-right: 40%;
     padding-left: 40%;
     background-image: url(Screen%20Shot%202015-02-07%20at%2011.19.25%20PM.png);
+    /* courtesy of http://media.tumblr.com/tumblr_mcmugbNN1s1qh9yw5.png*/
     text-align: center;
     position: absolute;
 }
 
 #link1 {
-    margin-left: 5%;
-    margin-top: 40%;
+    margin-top: 45%;
     text-align: center;
     width: 20%;
     position: absolute;
 }
 
 #link2 {
-    margin-left: 38%;
-    margin-top: 40%;
+    margin-left: 39%;
+    margin-top: 45%;
     text-align: center;
     width: 20%;
     position: absolute;
 }
 
 #link3 {
-    margin-left: 70%;
-    margin-top: 40%;
+    margin-left: 78%;
+    margin-top: 45%;
     text-align: center;
     width: 20%;
     position: absolute;
@@ -47,6 +47,14 @@ img {
     height:30%;
     margin-left: 43%;
     margin-top: 15%;
+    position: absolute;
+}
+
+#tufts {
+    margin-top: -8%;
+    margin-left: 70%;
+    width: 20%;
+    height: 10%;
     position: absolute;
 }
 
@@ -85,15 +93,18 @@ h3 {
 #exp {  
     padding-top: 0.5%;
     padding-bottom: 0.5%;
-    text-indent: 80px;
     list-style: circle;
     list-style-position: inside;
+    margin-left: 2%;
 }
 
 p {
     text-indent: 50px;
     text-align: justify;
-    
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+    position: absolute;
 }
 
 a {
