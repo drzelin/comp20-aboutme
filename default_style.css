@@ -120,22 +120,19 @@ p {
 a {
     width: 30%;
     display: inline-block;
-    text-align: 50%;
-    text-decoration:none;
+    text-decoration: none;
     color: white;
     font-size: 100%; 
-    border: 3% solid #A3B2A4;
-    padding: 1% 1% 1% 1%;
+    padding: 2% 1% 2% 1%;
     background: #610020;
-    opacity: 0.6%;
     text-indent: -1%;
+    text-decoration: none;
 }
 
 a:hover {
     background: #81334D;
     opacity: 0.9;
     color: white;
-    border-color: white;
 }
 
 #bio {
