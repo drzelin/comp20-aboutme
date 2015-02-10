@@ -63,7 +63,7 @@ h1 {
     width: 200%;
     margin-left: -45%;
     text-align: center;
-    font-size: 390%;
+    font-size: 250%;
     margin-top: 1.8%;
 }
 
@@ -89,8 +89,9 @@ h3 {
     text-align: left;
     margin-left: -1%;
     padding-left: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-size: 350%;
 }
 
 #exp {  
@@ -116,7 +117,7 @@ a {
     text-align: 50%;
     text-decoration:none;
     color: white;
-    font-size: 150%; 
+    font-size: 100%; 
     border: 3% solid #A3B2A4;
     padding: 1% 1% 1% 1%;
     background: #610020;
@@ -138,3 +139,16 @@ a:hover {
 #linkedin {
     text-align: right;
 }
+
+#resume {
+    color: #610020;
+    background-color: transparent;
+    margin-left: 1%;
+    font-size: 90%;
+    margin-bottom: -50%;
+}
+
+#resume:hover {
+    text-decoration: underline;
+}
+    
