@@ -10,7 +10,7 @@ body {
 
 .header {
     padding-top: 10%;
-    padding-bottom: 15%;
+    padding-bottom: 17%;
     padding-right: 40%;
     padding-left: 40%;
     background-image: url(Screen%20Shot%202015-02-07%20at%2011.19.25%20PM.png);
@@ -45,9 +45,10 @@ body {
 
 img {
     margin-left: 43%;
-    margin-top: 15%;
+    margin-top: 16%;
     position: relative;
     text-align: center;
+    max-width: 25%;
 }
 
 td {
